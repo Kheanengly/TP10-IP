@@ -1,6 +1,7 @@
 const table = require("../../db/blog/table");
 const delete_user = async (req,res) => {
     try {
+        
         const user = req.user
         console.log(user.data[0].username)    
         if(user.success == true){

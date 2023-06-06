@@ -16,7 +16,7 @@ const loginUser = async (req,res) =>{
         if(check==false){
             res.json({
                 error: "true",
-                message: "incorect password"
+                message: "incorect password  💀🔧 "
             })
         }else{
             const token = jwt.sign({
@@ -35,7 +35,7 @@ const loginUser = async (req,res) =>{
         }
    } catch (error) {
         res.json({
-            message : "Your email not available",
+            message : "Your email 🔧 not available ",
         })
    }
 
